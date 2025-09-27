@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Método do NZ — E o metodo do NZ</title>
+  <style>
+    :root{
+      --bg1:#001219;
+      --bg2:#0f172a;
+      --accent1:#ffd166;
+      --accent2:#ef476f;
+      --card:#071028;
+      --text:#e6eef8;
+      --muted:#a9c1ff;
+    }
+    *{box-sizing:border-box}
+    body {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      background: linear-gradient(135deg,var(--bg1),var(--bg2));
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 20px;
+    }
+    .card {
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius: 14px;
+      padding: 28px;
+      max-width: 640px;
+      width: 100%;
+      box-shadow: 0 12px 40px rgba(2,6,23,0.7);
+      text-align: center;
+      border: 1px solid rgba(255,255,255,0.03);
+    }
+    header { display:flex; align-items:center; gap:14px; justify-content:center; margin-bottom:14px; }
+    .logo {
+      width:56px; height:56px; border-radius:10px;
+      background: linear-gradient(135deg,var(--accent2),var(--accent1));
+      display:flex; align-items:center; justify-content:center; font-weight:800; color:#08112b;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+    }
+    h1 { margin: 0 0 6px; font-size:22px; color:var(--accent1); }
+    p { margin: 0 0 20px; color: var(--muted); }
+    .btn {
+      display: inline-block;
+      padding: 12px 20px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 800;
+      background: linear-gradient(90deg,var(--accent2),var(--accent1));
+      color: #08112b;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.45);
+      transition: transform .08s ease, box-shadow .12s ease;
+    }
+    .btn:active{ transform: translateY(1px) }
+    .meta { margin-top:14px; font-size:13px; color: #bcd6ff; }
+    .small { font-size:13px; color: var(--muted); margin-top:10px; }
+    footer { margin-top:18px; font-size:12px; color: rgba(255,255,255,0.35); }
+    @media (max-width:420px){ .card{ padding:18px } h1{ font-size:18px } }
+  </style>
+</head>
+<body>
+  <div class="card" role="main" aria-labelledby="titulo">
+    <header>
+      <div class="logo" aria-hidden="true">NZ</div>
+      <div style="text-align:left">
+        <div id="titulo" style="font-weight:700;color:var(--accent1)">Método do Moreira</div>
+        <div style="font-size:13px;color:var(--muted)">Exclusivo NZ</div>
+      </div>
+    </header>
+
+    <h1>Download dos métodos</h1>
+    <p>Este é um arquivo seguro e local. Clique no botão abaixo para abrir o link de download.</p>
+
+    <!-- Botão que leva ao link fornecido -->
+    <a class="btn" href="https://www.roblox.com/share?code=ec99076d6a62e44a8ad45bd5ad152832&type=Server" target="_blank" rel="noopener noreferrer" role="button">
+      Faça o download dos métodos
+    </a>
+
+    <div class="meta"><span style="word-break:break-all"></span></div>
+
+    <foote</footer>
+  </div>
+</body>
+  </html>
+  
